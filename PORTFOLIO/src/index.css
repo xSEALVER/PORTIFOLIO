@@ -16,4 +16,5 @@ html, body {
     width: 100%;
     scroll-behavior: smooth;
     background-color: rgb(34, 34, 34);
+    font-family: poppins;
   }

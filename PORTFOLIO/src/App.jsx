@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import React from 'react';
 import Contact from './Pages/Contact';
+import About from './Pages/About';
 import './index.css'; // Import global styles
 
 
@@ -25,6 +26,7 @@ function App() {
             
             <Routes>
               <Route path='/' element={<Home/>} />
+              <Route path='/about' element={<About/>} />
               <Route path='/contact' element={<Contact/>} />
             </Routes>
 

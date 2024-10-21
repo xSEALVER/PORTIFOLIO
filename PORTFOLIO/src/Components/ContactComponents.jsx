@@ -2,17 +2,17 @@ import React from 'react'
 
 const ContactComponents = () => {
   return (
-    <>
-        <div className='top-header text-center mb-1'
+    <section className=' py-12'>
+        <div className='top-header text-center '
             data-aos="fade-down"
             data-aos-duration="100"
             data-aos-delay="100"
 
 
         >
-            <h1 className=' font-semibold text-violet-600 mb-2.5'>Contactez-moi</h1>
+            <h1 className=' font-semibold text-violet-600  '>Contactez-moi</h1>
         </div>
-        <div className='row flex justify-between w-full gap-11 px-10'>\
+        <div className='row flex justify-between w-full gap-11 px-10 pt-3'>\
             <div className='col flex w-6/12'
                 data-aos="fade-right"
                 data-aos-duration="1000"
@@ -20,6 +20,7 @@ const ContactComponents = () => {
 
 
             >
+                
                 <div className="contact-info relative flex flex-col justify-center items-center p-5 w-full h-[315px] rounded-lg overflow-hidden bg-violet-600">
                     <h2 className='text-white mb-5'>Me Retrouver</h2>
                     <p className='flex items-center gap-2 text-white my-1 '>Email : miezaneric2@gmail.com</p>
@@ -46,7 +47,7 @@ const ContactComponents = () => {
 
             </div>
         </div>
-    </>
+    </section>
     
 
    

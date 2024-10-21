@@ -11,9 +11,7 @@ function Navbar() {
         
         {/* Right-aligned navigation links */}
         <div className="flex space-x-6">
-          <li>
-            <Link to="/signup" className="text-gray-800 hover:text-blue-600 transition">À Propos</Link>
-          </li>
+          
           <li>
             <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">BTS SIO</Link>
           </li>
@@ -22,6 +20,9 @@ function Navbar() {
           </li>
           <li>
             <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Réalisations</Link>
+          </li>
+          <li>
+            <Link to="/about" className="text-gray-800 hover:text-blue-600 transition">À Propos</Link>
           </li>
           <li>
             <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Projets</Link>
