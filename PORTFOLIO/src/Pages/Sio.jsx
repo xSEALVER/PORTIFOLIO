@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
-import AboutHeroComp from '../Components/AboutHeroComp';
+import SioComp from '../Components/SioComp';
 import Footer from '../Components/Footer';
 
-function About() {
+function Sio() {
   return (
     <>
         <Navbar/>
-        <AboutHeroComp/>
+        <SioComp/>
         <Footer/>
     </>
   )
 }
 
-export default About
+export default Sio

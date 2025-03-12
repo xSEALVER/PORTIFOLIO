@@ -13,7 +13,7 @@ function Navbar() {
         <div className="flex space-x-6">
           
           <li>
-            <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">BTS SIO</Link>
+            <Link to="/sio" className="text-gray-800 hover:text-blue-600 transition">BTS SIO</Link>
           </li>
           <li>
             <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Ecole & Entreprise</Link>
