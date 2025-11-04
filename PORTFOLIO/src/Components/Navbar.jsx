@@ -28,7 +28,7 @@ function Navbar() {
             <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Projets</Link>
           </li>
           <li>
-            <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Veille technologique</Link>
+            <Link to="/veille" className="text-gray-800 hover:text-blue-600 transition">Veille technologique</Link>
           </li>
           <li>
             <Link to="/contact" className="text-gray-800 hover:text-blue-600 transition">Contact</Link>

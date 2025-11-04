@@ -6,6 +6,8 @@ import React from "react";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Sio from "./Pages/Sio";
+import Veille from "./Pages/Veille";
+
 import "./index.css";
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
         <Route path="/sio" element={<Sio />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/veille" element={<Veille />} />
       </Routes>
     </Router>
   );
