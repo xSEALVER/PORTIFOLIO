@@ -19,13 +19,13 @@ function Navbar() {
             <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Ecole & Entreprise</Link>
           </li>
           <li>
-            <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Réalisations</Link>
+            <Link to="/realisation" className="text-gray-800 hover:text-blue-600 transition">Réalisations</Link>
           </li>
           <li>
             <Link to="/about" className="text-gray-800 hover:text-blue-600 transition">À Propos</Link>
           </li>
           <li>
-            <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Projets</Link>
+            <Link to="/projet" className="text-gray-800 hover:text-blue-600 transition">Projets</Link>
           </li>
           <li>
             <Link to="/veille" className="text-gray-800 hover:text-blue-600 transition">Veille technologique</Link>

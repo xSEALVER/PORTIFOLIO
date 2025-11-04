@@ -17,11 +17,11 @@ export default function VeilleTechnologique() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <div className="min-h-screen bg-gray-900">
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-violet-600 mb-6">
             Veille technologique
           </h1>
           <p className="text-lg text-gray-600 mb-8">

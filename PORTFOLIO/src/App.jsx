@@ -7,6 +7,8 @@ import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Sio from "./Pages/Sio";
 import Veille from "./Pages/Veille";
+import Realisation from "./Pages/Realisation";
+import Projet from "./Pages/Projet";
 
 import "./index.css";
 
@@ -29,6 +31,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/veille" element={<Veille />} />
+        <Route path="/realisation" element={<Realisation />} />
+        <Route path="/projet" element={<Projet />} />
       </Routes>
     </Router>
   );
