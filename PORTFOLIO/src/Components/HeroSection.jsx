@@ -71,12 +71,8 @@ const HeroSection = () => {
           Je suis{" "}
           <TypeAnimation
             sequence={[
-              "Dév Web",
-              4000, // Wait 4 seconds
-              "Frontend Dev",
-              4000, // Wait 4 seconds
-              "UI/UX Designer",
-              4000, // Wait 4 seconds
+              "Etudiant en BTS SIO",
+              1000
             ]}
             speed={200} // Typing speed
             deletionSpeed={200} // Slower erasing speed
